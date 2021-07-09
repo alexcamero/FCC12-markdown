@@ -1,0 +1,32 @@
+.window {
+  background-color: #EEE;
+  box-shadow: 0 -1px 3px 3px #333;
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+a {
+margin-right: 5px;
+transform: rotate(45deg);
+color: black;
+}
+
+a:hover {
+color: white;
+}
+
+textarea {
+width: 98%;
+height: calc(100% - 35px);
+border: 0 solid black;
+background-color: #EEE;
+margin-top: 5px;
+resize: vertical;
+flex-grow: 1;
+color: blue;
+}
+
+textarea:focus {
+outline: none;
+}
